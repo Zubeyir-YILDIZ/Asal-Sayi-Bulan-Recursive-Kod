@@ -16,7 +16,12 @@ public class Main
                 System.out.println(sayi + " sayısı asal değildir ");
         }
         else
-            System.out.println("1 asal değildir başka değer giriniz...");
+        {
+            if(sayi==1)
+                System.out.println("1 asal değildir başka değer giriniz...");
+            else
+                System.out.println("Geçersiz değer ");
+        }
 
     }
     static int Asal(int sayi, int sayac)
